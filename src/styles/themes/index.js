@@ -1,0 +1,92 @@
+const AppTheme = {
+    theme1:{
+        themeName: "theme1",
+        bgColor:{
+            bg1:"#3a4764",
+            bg2:"#232c43",
+            screen:"#182034",
+        },
+        keyColor:{
+            key1:{
+                bg:"#637097",
+                borderColor:"#404e72"
+            },
+            key2:{
+                bg:"#d03f2f",
+                borderColor:"#93261a"
+            },
+            key3:{
+                bg:"#eae3dc",
+                borderColor:"#b4a597"
+            },
+        },
+        textColor:{
+            primary:"#444b5a",
+            panelMain:"#ffffff",
+            neutral:"#ffffff",
+            header:"#ffffff"
+        },
+        screenSize:{
+            desktop: "screen and (min-width: 768px)",
+        }
+    },
+    theme2:{
+        themeName: "theme2",
+        bgColor:{
+            bg1:"#e6e6e6",
+            bg2:"#d1cccc",
+            screen:"#ededed",
+        },
+        keyColor:{
+            key1:{
+                bg:"#377f86",
+                borderColor:"#1b5f65"
+            },
+            key2:{
+                bg:"#ca5502",
+                borderColor:"#893901"
+            },
+            key3:{
+                bg:"#e5e4e1",
+                borderColor:"#a69d91"
+            },
+        },
+        textColor:{
+            primary:"#35352c",
+            panelMain:"#35352c",
+            neutral:"#ffffff",
+            header:"#35352c"
+        }
+    },
+    theme3:{
+        themeName: "theme3",
+        bgColor:{
+            bg1:"#160628",
+            bg2:"#1d0934",
+            screen:"#1d0934",
+        },
+        keyColor:{
+            key1:{
+                bg:"#58077d",
+                borderColor:"#bc15f4"
+            },
+            key2:{
+                bg:"#00e0d1",
+                borderColor:"#6cf9f2"
+            },
+            key3:{
+                bg:"#341c4f",
+                borderColor:"#871c9c"
+            },
+        },
+        textColor:{
+            primary:"#ffe53d",
+            panelMain:"#ffe53d",
+            neutral:"#ffffff",
+            secondary:"#1b2428",
+            header:"#ffe53d"
+        }
+    }
+}
+
+export default AppTheme;

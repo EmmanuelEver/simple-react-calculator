@@ -1,0 +1,10 @@
+const ActionTypes = {
+    CHANGE_THEME:"CHANGE_THEME",
+    KEY_PRESS:"KEY_PRESS",
+    OPERATION_PRESS:"OPERATION_PRESS",
+    GET_RESULT:"GET_RESULT",
+    DELETE_CHAR:"DELETE_CHAR",
+    CLEAR_ALL:"CLEAR_ALL"
+}
+
+export default ActionTypes;
