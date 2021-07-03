@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components';
 
-const Key = ({children, size, keyType, textColor, spaceBottom, clickHandler, disabled}) => {
+const Key = ({children, size, keyType, textColor, spaceBottom, clickHandler, disabled, val}) => {
+    useEffect(() => {
+        console.log("rendered");
+    }, [clickHandler])
     return (
-        <Wrapper disabled={disabled} onClick={() => clickHandler()} size={size} keyType={keyType} spaceBottom={spaceBottom}>
+        <Wrapper disabled={disabled} onClick={() => clickHandler(val)} size={size} keyType={keyType} spaceBottom={spaceBottom}>
             <SpanText textColor={textColor}>
                 {children}
             </SpanText>
@@ -43,5 +46,4 @@ const SpanText = styled.span`
 `
 
 
-const MemoizedKey = React.memo(Key);
-export default MemoizedKey;
+export default React.memo(Key);

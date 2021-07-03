@@ -16,6 +16,7 @@ const Main = styled.main`
     display: grid;
     place-items: center;
     transition: all .3s ease-in-out;
+    position: relative;
 `
 
 export default MainWrapper;

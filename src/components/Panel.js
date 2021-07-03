@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Panel = () => {
     const display = useSelector((state) => state.calculator);
-    console.log(display.expString)
+
     const getSub = () => {
         if(display.result) return display.expString;
         try{
